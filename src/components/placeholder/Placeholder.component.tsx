@@ -1,33 +1,17 @@
-import React from 'react';
-import { injectClassNames } from 'utils/css';
-import styles from './Placeholder.module.scss';
-
-const { placeholder } = styles;
+import React from "react";
+import { injectClassNames } from "utils/css";
 
 type PlaceholderProps = {
-    content?: string,
-    length: string
+  content?: string;
+  length: string;
 };
 
-export default function Placeholder(
-  props: PlaceholderProps
-): JSX.Element {
-  const { content = '', length } = props;
+export default function Placeholder(props: PlaceholderProps): JSX.Element {
+  const { content = "", length } = props;
 
   if (content) {
-    return <>{ content }</>;
+    return <>{content}</>;
   }
 
-  return (
-    <span
-      className={
-        injectClassNames(
-          placeholder,
-          styles[length]
-        )
-      }
-    >
-      { content }
-    </span>
-  );
+  return <span className={injectClassNames()}>{content}</span>;
 }

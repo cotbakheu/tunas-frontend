@@ -1,5 +1,5 @@
-import React from 'react';
-import SourceDocument, { Html, Head, Main, NextScript } from 'next/document';
+import React from "react";
+import SourceDocument, { Html, Head, Main, NextScript } from "next/document";
 
 export default class Document extends SourceDocument {
   render(): JSX.Element {

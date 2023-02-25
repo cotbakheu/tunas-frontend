@@ -1,15 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import styles from './Logo.module.scss';
-
-const { logo } = styles;
+import React from "react";
+import Link from "next/link";
 
 export default function Logo(): JSX.Element {
   return (
-    <div className={ logo }>
-      <Link href="/">
-                    PWA
-      </Link>
+    <div>
+      <Link href="/">PWA</Link>
     </div>
   );
 }

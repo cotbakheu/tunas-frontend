@@ -1,6 +1,5 @@
-import React from 'react';
-import Page from 'routes/page';
+import React from "react";
 
 export default function Home(): JSX.Element {
-  return <Page isLanding />;
+  return <></>;
 }

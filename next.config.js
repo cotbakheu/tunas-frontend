@@ -19,6 +19,11 @@ module.exports = {
     env: {
         serviceWorkerUrl
     },
+    trailingSlash: true,
+    experimental: {
+        esmExternals: false,
+        jsconfigPaths: true // enables it for both jsconfig.json and tsconfig.json
+      },
     pageExtensions: ['ts', 'tsx'],
     excludeFile: (str) => /\/src\/sw\/.*/.test(str),
     webpack: (config, { isServer, dev, webpack, buildId }) => {
