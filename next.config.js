@@ -1,5 +1,4 @@
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const generateSitemap = require('./scripts/sitemap');
 const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
@@ -37,13 +36,6 @@ module.exports = {
                 loader: 'raw-loader'
             }
         );
-
-        if (isServer && !dev) {
-            generateSitemap({
-                baseUrl,
-                skipIndex
-            }, sitemapDest);
-        }
 
         if (!isServer) {
             const additionalManifestEntries = fs
