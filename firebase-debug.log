@@ -1,0 +1,162 @@
+[debug] [2023-02-26T08:47:53.856Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T08:47:53.859Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T08:47:53.860Z] CLI Version:   11.24.0
+[debug] [2023-02-26T08:47:53.860Z] Platform:      win32
+[debug] [2023-02-26T08:47:53.860Z] Node Version:  v18.14.2
+[debug] [2023-02-26T08:47:53.862Z] Time:          Sun Feb 26 2023 15:47:53 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T08:47:53.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T08:47:53.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T08:47:53.999Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T08:47:53.999Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T08:47:54.003Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T08:47:54.003Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T08:47:54.003Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:47:55.379Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T08:47:55.379Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:47:55.382Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T08:47:55.866Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T08:47:55.867Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T08:48:29.493Z] Error: Unable to load next.config.js.
+    at getConfig (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:311:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:60:40)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-26T08:48:42.525Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T08:48:42.528Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T08:48:42.529Z] CLI Version:   11.24.0
+[debug] [2023-02-26T08:48:42.529Z] Platform:      win32
+[debug] [2023-02-26T08:48:42.529Z] Node Version:  v18.14.2
+[debug] [2023-02-26T08:48:42.530Z] Time:          Sun Feb 26 2023 15:48:42 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T08:48:42.530Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T08:48:42.618Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T08:48:42.619Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T08:48:42.619Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T08:48:42.622Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T08:48:42.622Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T08:48:42.622Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:48:43.849Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T08:48:43.849Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:48:43.852Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T08:48:44.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T08:48:44.455Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T08:49:27.147Z] Error: Unable to load next.config.js.
+    at getConfig (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:311:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:60:40)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-26T08:58:51.783Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T08:58:51.786Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T08:58:51.787Z] CLI Version:   11.24.0
+[debug] [2023-02-26T08:58:51.788Z] Platform:      win32
+[debug] [2023-02-26T08:58:51.788Z] Node Version:  v18.14.2
+[debug] [2023-02-26T08:58:51.790Z] Time:          Sun Feb 26 2023 15:58:51 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T08:58:51.790Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T08:58:51.878Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T08:58:51.878Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T08:58:51.879Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T08:58:51.881Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T08:58:51.882Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T08:58:51.882Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:58:53.260Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T08:58:53.260Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T08:58:53.262Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T08:58:53.764Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T08:58:53.765Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T08:59:51.615Z] Error: > Build failed because of webpack errors
+    at E:\App Recruitment\Project\fe_recruitment_app\node_modules\next\dist\build\index.js:15:924
+    at async Span.traceAsyncFn (E:\App Recruitment\Project\fe_recruitment_app\node_modules\next\dist\telemetry\trace\trace.js:6:584)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:55:5)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-26T09:01:06.402Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T09:01:06.404Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T09:01:06.406Z] CLI Version:   11.24.0
+[debug] [2023-02-26T09:01:06.406Z] Platform:      win32
+[debug] [2023-02-26T09:01:06.406Z] Node Version:  v18.14.2
+[debug] [2023-02-26T09:01:06.407Z] Time:          Sun Feb 26 2023 16:01:06 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T09:01:06.408Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T09:01:06.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T09:01:06.497Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T09:01:06.497Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T09:01:06.500Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T09:01:06.501Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T09:01:06.501Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:01:06.977Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T09:01:06.977Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:01:06.979Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T09:01:07.487Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T09:01:07.487Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T09:02:14.645Z] Error: Unable to load next.config.js.
+    at getConfig (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:311:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:60:40)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-26T09:05:44.368Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T09:05:44.370Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T09:05:44.372Z] CLI Version:   11.24.0
+[debug] [2023-02-26T09:05:44.372Z] Platform:      win32
+[debug] [2023-02-26T09:05:44.372Z] Node Version:  v18.14.2
+[debug] [2023-02-26T09:05:44.375Z] Time:          Sun Feb 26 2023 16:05:44 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T09:05:44.375Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T09:05:44.487Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T09:05:44.488Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T09:05:44.488Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T09:05:44.493Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T09:05:44.494Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T09:05:44.494Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:05:45.835Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T09:05:45.835Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:05:45.837Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T09:05:46.333Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T09:05:46.333Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T09:06:46.843Z] Error: Unable to load next.config.js.
+    at getConfig (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:311:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:60:40)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-26T09:11:28.070Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T09:11:28.073Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-26T09:11:28.074Z] CLI Version:   11.24.0
+[debug] [2023-02-26T09:11:28.074Z] Platform:      win32
+[debug] [2023-02-26T09:11:28.074Z] Node Version:  v18.14.2
+[debug] [2023-02-26T09:11:28.076Z] Time:          Sun Feb 26 2023 16:11:28 GMT+0700 (Western Indonesia Time)
+[debug] [2023-02-26T09:11:28.076Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T09:11:28.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-26T09:11:28.165Z] > authorizing via signed-in user (cotbakheu@gmail.com)
+[debug] [2023-02-26T09:11:28.165Z] [iam] checking project maps-and-realtime for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-26T09:11:28.168Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions [none]
+[debug] [2023-02-26T09:11:28.168Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions x-goog-quota-user=projects/maps-and-realtime
+[debug] [2023-02-26T09:11:28.169Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:11:28.704Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions 200
+[debug] [2023-02-26T09:11:28.705Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/maps-and-realtime:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-26T09:11:28.708Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime [none]
+[debug] [2023-02-26T09:11:29.167Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime 200
+[debug] [2023-02-26T09:11:29.167Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/maps-and-realtime {"projectId":"maps-and-realtime","projectNumber":"99308730110","displayName":"maps and realtime","name":"projects/maps-and-realtime","resources":{"hostingSite":"maps-and-realtime"},"state":"ACTIVE","etag":"1_7d9b85a6-3007-458c-bf8a-939e15c5ef4f"}
+[debug] [2023-02-26T09:12:36.279Z] Error: Unable to load next.config.js.
+    at getConfig (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:311:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async build (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\next\index.js:60:40)
+    at async prepareFrameworks (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\frameworks\index.js:261:108)
+    at async deploy (C:\Users\Ferdy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.

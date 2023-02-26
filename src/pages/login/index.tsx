@@ -19,7 +19,7 @@ type FormValues = {
   password: string
 }
 
-const Login = () => {
+const Login = (): React.ReactElement => {
   // Hooks
   const {
     handleSubmit,
