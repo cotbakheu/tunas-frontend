@@ -1,6 +1,6 @@
 const path = require('path');
 const { promises: fs } = require('fs');
-const { default: getRouteFromAssetPath } = require('next/dist/next-server/lib/router/utils/get-route-from-asset-path');
+// const { default: getRouteFromAssetPath } = require('next/dist/next-server/lib/router/utils/get-route-from-asset-path');
 const generateSitemap = require('./generateSitemap');
 const root = process.cwd();
 
@@ -48,7 +48,7 @@ const addStaticPages = async ({ baseUrl, skipIndex }) => {
                 routes.push(...directoryRoutes);
             }
 
-            const route = getRouteFromAssetPath(`/${name}`, '.tsx');
+            const route = '';
             const isNotIndexable = skipIndex.includes(route);
 
             if (isNotIndexable) {

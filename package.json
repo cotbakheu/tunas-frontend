@@ -56,7 +56,7 @@
   },
   "scripts": {
     "dev": "next",
-    "start": "NODE_ENV=production next start",
+    "start": "next start",
     "build": "next build",
     "eslint": "eslint ./src",
     "stylelint": "stylelint ./src"
