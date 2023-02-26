@@ -1,11 +1,9 @@
-import CustomTextInput, {
-  CustomTextInputProps,
-} from "./text-input/TextInput.component";
+import CustomTextInput from './text-input/TextInput.component'
 
 const forms = {
-  TextInput: CustomTextInput,
-};
+  TextInput: CustomTextInput
+}
 
-export const TextInput = CustomTextInput;
+export const TextInput = CustomTextInput
 
-export default forms;
+export default forms

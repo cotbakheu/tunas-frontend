@@ -1,45 +1,41 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 
 // Style Imports
-import style from "src/components/theme-toggler/ThemeTogglerStyle.module.css";
+import style from 'src/components/theme-toggler/ThemeTogglerStyle.module.css'
 
 // Icon Impors
-import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillSunFill, BsFillMoonStarsFill } from 'react-icons/bs'
 
-type Props = {};
-
-const ThemeToggler = (props: Props) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+const ThemeToggler = (): React.ReactElement => {
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   useEffect(() => {
     if (isDarkMode) {
-      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add('dark')
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove('dark')
     }
-  }, [isDarkMode]);
+  }, [isDarkMode])
 
   function handleTogglDarkMode() {
-    setIsDarkMode(!isDarkMode);
+    setIsDarkMode(!isDarkMode)
   }
+
   return (
     <>
-      <div
-        className={`bg-grey-200 dark:bg-grey-500 ${style.togglerContainer}`}
-        onClick={handleTogglDarkMode}
-      >
+      <div className={`bg-grey-200 dark:bg-grey-500 ${style.togglerContainer}`} onClick={handleTogglDarkMode}>
         {!isDarkMode ? (
           <>
-            <BsFillSunFill style={{ color: "#f1c40f", fontSize: "2rem" }} />
+            <BsFillSunFill style={{ color: '#f1c40f', fontSize: '2rem' }} />
           </>
         ) : (
           <>
-            <BsFillMoonStarsFill style={{ fontSize: "2rem" }} />
+            <BsFillMoonStarsFill style={{ fontSize: '2rem' }} />
           </>
         )}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ThemeToggler;
+export default ThemeToggler

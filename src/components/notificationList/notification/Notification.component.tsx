@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React from 'react'
 
-export default function Notification({}): JSX.Element {
+export default function Notification({}): React.ReactElement {
   return (
     <li>
-      <button type="button" aria-label="close notification" />
+      <button type='button' aria-label='close notification' />
       <p>test</p>
     </li>
-  );
+  )
 }

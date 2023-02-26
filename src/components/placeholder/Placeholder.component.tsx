@@ -1,17 +1,17 @@
-import React from "react";
-import { injectClassNames } from "src/utils/css";
+import React from 'react'
+import { injectClassNames } from 'src/utils/css'
 
 type PlaceholderProps = {
-  content?: string;
-  length: string;
-};
+  content?: string
+  length: string
+}
 
 export default function Placeholder(props: PlaceholderProps): JSX.Element {
-  const { content = "", length } = props;
+  const { content = '' } = props
 
   if (content) {
-    return <>{content}</>;
+    return <>{content}</>
   }
 
-  return <span className={injectClassNames()}>{content}</span>;
+  return <span className={injectClassNames()}>{content}</span>
 }
