@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
-import { getWindowProperty, isMobile, browserStorage } from "utils/browser";
-import { checkMediaProperty } from "utils/css";
+import { getWindowProperty, isMobile, browserStorage } from "src/utils/browser";
+import { checkMediaProperty } from "src/utils/css";
 import { BeforeInstallPromptEvent } from "./A2HS";
 import IOSInstructions from "./IOSInstructions";
 

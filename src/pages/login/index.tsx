@@ -84,7 +84,7 @@ const Login = (props: Props) => {
             <div className="mt-4">
               <Button
                 type="submit"
-                className="bg-primary hover:bg-primary-800 w-full"
+                className="bg-primary dark:bg-primary hover:bg-primary-800 w-full"
               >
                 Login
               </Button>

@@ -1,7 +1,7 @@
 import React, { CSSProperties } from "react";
 import { useSelector } from "react-redux";
-import { RootState } from "stores";
-import Notification from "components/notificationList/notification";
+import { RootState } from "src/stores";
+import Notification from "src/components/notificationList/notification";
 
 export const ANIMATION_DURATION = 200;
 export const NOTIFICATION_TTL = 5000;

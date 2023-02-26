@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { injectClassNames } from "utils/css";
+import { injectClassNames } from "src/utils/css";
 
 enum ImageState {
   Loading = "IMAGE_LOADING",

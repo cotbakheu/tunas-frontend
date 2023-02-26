@@ -6,12 +6,12 @@ import React, {
   useState,
 } from "react";
 import Head from "next/head";
-import { useTheme } from "hooks/theme";
-import Icon from "components/icon";
-import Switch from "components/switch";
-import { theme } from "config";
-import { injectClassNames } from "utils/css";
-import { useOutsideClick } from "hooks/events";
+import { useTheme } from "src/hooks/theme";
+import Icon from "src/components/icon";
+import Switch from "src/components/switch";
+import { theme } from "src/config";
+import { injectClassNames } from "src/utils/css";
+import { useOutsideClick } from "src/hooks/events";
 
 const DARK_MODE_SETTING = "dark-mode-enabled";
 const SYSTEM_THEME_SETTING = "system-theme-enabled";

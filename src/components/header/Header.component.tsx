@@ -1,8 +1,8 @@
 import React, { memo, useEffect } from "react";
-import Icon from "components/icon";
-import Items from "components/header/items";
-import Logo from "components/header/logo";
-import ThemeToggler from "components/header/themeToggler";
+import Icon from "src/components/icon";
+import Items from "src/components/header/items";
+import Logo from "src/components/header/logo";
+import ThemeToggler from "src/components/header/themeToggler";
 
 const OFFLINE = "offline";
 

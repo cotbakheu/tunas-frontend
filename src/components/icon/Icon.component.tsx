@@ -1,6 +1,6 @@
 import React, { createElement } from "react";
 import dynamic from "next/dynamic";
-import { injectClassNames } from "utils/css";
+import { injectClassNames } from "src/utils/css";
 
 type IconProps = {
   asset: string;

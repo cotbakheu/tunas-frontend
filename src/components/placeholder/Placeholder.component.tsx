@@ -1,5 +1,5 @@
 import React from "react";
-import { injectClassNames } from "utils/css";
+import { injectClassNames } from "src/utils/css";
 
 type PlaceholderProps = {
   content?: string;

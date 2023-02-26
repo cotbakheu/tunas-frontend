@@ -9,7 +9,7 @@ import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
 type Props = {};
 
 const ThemeToggler = (props: Props) => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     if (isDarkMode) {
@@ -30,11 +30,11 @@ const ThemeToggler = (props: Props) => {
       >
         {!isDarkMode ? (
           <>
-            <BsFillSunFill />
+            <BsFillSunFill style={{ color: "#f1c40f", fontSize: "2rem" }} />
           </>
         ) : (
           <>
-            <BsFillMoonStarsFill />
+            <BsFillMoonStarsFill style={{ fontSize: "2rem" }} />
           </>
         )}
       </div>
